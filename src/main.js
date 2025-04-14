@@ -18,10 +18,10 @@ import {
     document.getElementById('canvas').replaceWith(session.output.live);
 
     //load the specified lens group
-    const { lenses } = await cameraKitSourceError.lensRepository.loadLensGroups(['9fd47832-2753-49e6-aebf-66dd0d475c68']);
+    const { lenses } = await cameraKitSourceError.lensRepository.loadLensGroups(['1761a911-7108-4d03-98c5-9205be09a2dd']);
 
     //apply the first lens from the lens group to the CameraKit session
-    session.applyLens(lenses[0]);
+    session.applyLens(lenses[8]);
 
     //get the user's media stream
     let MediaSteam = await navigator.mediaDevices.getUserMedia({
