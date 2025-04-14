@@ -5,7 +5,7 @@ import {
     bootstrapCameraKit,
     createMediaStreamSource,
     transform2D,
-} from '@snap/camera-kit';
+} from '@snap/camera-kit'
 
 (async function () {
     // bootstrap CameraKit using TOKEN – here insert the token
