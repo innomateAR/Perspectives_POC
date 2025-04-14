@@ -1,2 +1,1 @@
-# Perspectives_POC
- 
+# camera_kit_demo
